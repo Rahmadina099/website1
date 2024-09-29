@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Siswa</h1>
+    <table border="1" cellpadding="0"cellspasing="0">
+        <form>
+        <tr>
+            <td>Nama Calon Siswa</td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="text">
+                <input type="date"></td>
+           
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td><select id="agama" name="agama" style="background-color: rgb(235, 235, 235);">
+                <option value="islam" >islam</option>
+                <option value="kristen protestan">kristen protestan</option>
+                <option value="kristen katolik">kristen katolik</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+                <option value="konghuchu">konghuchu</option>
+            </select></td>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>No Telp/Hp</td>
+                <td>:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>;</td>
+                <td><input type="radio" id="jk" name="jk">
+                     <label for="jk">pria</label>
+                     <input type="radio" id="jk" name="jk">
+                     <label for="jk">wanita</label>
+                    </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="checkbox" id="hobi" name="hobi">
+                <label for="hobi">membaca</label>
+                <input type="checkbox" id="hobi" name="hobi">
+                <label for="hobi">menulis</label>
+                <input type="checkbox" id="hobi" name="hobi">
+                <label for="hobi">olahraga</label>
+                 </td>
+            </tr>
+            <tr>
+                <td>Pas Foto</td>
+                <td>:</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><input type="reset">
+                <input type="submit"></td>
+            </tr>
+       
+
+
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
